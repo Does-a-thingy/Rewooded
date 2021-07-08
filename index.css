@@ -2,12 +2,12 @@
    background-color: #95D904;
    color: #E7F294;
    display: grid;
-   grid-template-columns: 2fr 2fr 1fr;
+   grid-template-columns: 2fr 2fr;
    grid-template-rows: 2fr 3fr 1fr;
    grid-template-areas:
-      'mtext head head'
-      'mtext mtext foot'
-      'mtext mtext foot'
+      'head head'
+      'mtext mtext'
+      'foot foot'
       ;
 }
 .header {
