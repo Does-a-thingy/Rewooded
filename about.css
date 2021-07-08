@@ -2,12 +2,12 @@
    background-color: #95D904;
    color: #E7F294;
    display: grid;
-   grid-template-columns: 2fr 2fr 1fr;
+   grid-template-columns: 2fr 2fr;
    grid-template-rows: 2fr 1fr 1fr 2fr;
    grid-template-areas:
       'head head'
-      'sub1 text1'
-      'sub2 text2'
+      'sub1 sub2'
+      'text1 text2'
       'foot foot'
       ;
 }
@@ -24,10 +24,12 @@
 .sub1 {
    grid-area: sub1;
    text-align: center;
+   background-color: #E7f294;
 }
 .sub2 {
    grid-area: sub2;
    text-align: center;
+   background-color: #E7f294;
 }
 .text2 {
    grid-area: text1;
