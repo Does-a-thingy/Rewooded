@@ -3,7 +3,7 @@
    color: #E7F294;
    display: grid;
    grid-template-columns: 2fr 2fr;
-   grid-template-rows: 2fr 1fr 1fr 2fr;
+   grid-template-rows: 1fr 1fr 1fr 2fr;
    grid-template-areas:
       'head head'
       'sub1 sub2'
@@ -25,13 +25,15 @@
    grid-area: sub1;
    text-align: center;
    background-color: #E7f294;
+   color: #00B300;
 }
 .sub2 {
    grid-area: sub2;
    text-align: center;
    background-color: #E7f294;
+   color: #00B300;
 }
-.text2 {
+.text1 {
    grid-area: text1;
    text-align: center;
    background-color: #97BF04;
