@@ -1,0 +1,36 @@
+.site {
+   background-color: #95D904;
+   color: #E7F294;
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   grid-template-rows: 2fr 1fr 1fr 1fr;
+   grid-template-areas:
+      'head head'
+      'subh smtext'
+      'table table'
+      'foot foot'
+      ;
+}
+.heading {
+   grid-area: head;
+   text-align: center;
+   background-color: #067302;
+}
+.feeting {
+   align-self: center;
+   grid-area: foot;
+   text-align: center;
+   background-color: #067302;
+   display: inline;
+}
+.mtext {
+   grid-area: mtext;
+   text-align: center;
+   background-color: #97BF04;
+}
+html {
+   background-color: #97BF04;
+}
+.table {
+   grid-area: table;
+}
