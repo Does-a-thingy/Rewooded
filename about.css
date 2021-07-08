@@ -3,10 +3,11 @@
    color: #E7F294;
    display: grid;
    grid-template-columns: 2fr 2fr 1fr;
-   grid-template-rows: 2fr 3fr 1fr;
+   grid-template-rows: 2fr 1fr 1fr 2fr;
    grid-template-areas:
       'head head'
-      'mtext mtext'
+      'sub1 text1'
+      'sub2 text2'
       'foot foot'
       ;
 }
@@ -20,8 +21,13 @@
    text-align: center;
    background-color: #067302;
 }
-.mtext {
-   grid-area: mtext;
+.text2 {
+   grid-area: text1;
+   text-align: center;
+   background-color: #97BF04;
+}
+.text2 {
+   grid-area: text1;
    text-align: center;
    background-color: #97BF04;
 }
