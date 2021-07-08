@@ -21,13 +21,21 @@
    text-align: center;
    background-color: #067302;
 }
+.sub1 {
+   grid-area: sub1;
+   text-align: center;
+}
+.sub2 {
+   grid-area: sub2;
+   text-align: center;
+}
 .text2 {
    grid-area: text1;
    text-align: center;
    background-color: #97BF04;
 }
 .text2 {
-   grid-area: text1;
+   grid-area: text2;
    text-align: center;
    background-color: #97BF04;
 }
