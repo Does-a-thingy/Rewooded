@@ -1,6 +1,6 @@
 .site {
-   background-color: #95D904;
-   color: #E7F294;
+   background-color: #E7f294;
+   color: #EDF2C2;
    display: grid;
    grid-template-columns: 2fr 2fr;
    grid-template-rows: 2fr 3fr 1fr;
@@ -28,5 +28,5 @@
    background-color: #97BF04;
 }
 html {
-   background-color: #97BF04;
+   background-color: #E7f294;;
 }
