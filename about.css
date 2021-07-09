@@ -2,6 +2,7 @@
    background-color: #95D904;
    color: #E7F294;
    display: grid;
+   overflow: hidden;
    grid-template-columns: 2fr 2fr;
    grid-template-rows: 1fr 1fr 1fr 2fr;
    grid-template-areas:
