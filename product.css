@@ -6,7 +6,7 @@
    color: #EDF2C2;
    display: grid;
    grid-template-columns: 2fr 2fr;
-   grid-template-rows: 2fr 1fr 1fr 1fr;
+   grid-template-rows: 3fr 2fr 4fr 2fr;
    grid-template-areas:
       'head head'
       'subh mtext'
@@ -15,17 +15,20 @@
       ;
 }
 .head {
+   padding: 7px;
    grid-area: head;
    text-align: center;
    background-color: #067302;
 }
 .foot {
+   padding: 7px;
    align-self: center;
    grid-area: foot;
    text-align: center;
    background-color: #067302;
 }
 .mtext {
+   padding: 7px;
    grid-area: mtext;
    text-align: center;
    background-color: #97BF04;
@@ -34,12 +37,16 @@ html {
    background-color: #E7f294;
 }
 .table {
+   padding: 7px;
    grid-area: table;
    background-color: #EDf2C2;
    align-self: center;
    
 }
 .subh {
+   padding: 7px;
+   grid-area: subh;
+   text-align: center;
    color: #00B300;
    background-color: #97BF04;
 }
