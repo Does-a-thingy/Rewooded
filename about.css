@@ -16,34 +16,41 @@
    grid-area: head;
    text-align: center;
    background-color: #067302;
+   color: #EDF2C2;
 }
 .footer {
    grid-area: foot;
    text-align: center;
    background-color: #067302;
+   color: #EDF2C2;
 }
 .sub1 {
    grid-area: sub1;
    text-align: center;
    background-color: #E7f294;
-   color: #00B300;
+   color: #EDF2C2;
 }
 .sub2 {
    grid-area: sub2;
    text-align: center;
    background-color: #E7f294;
-   color: #00B300;
+   color: #EDF2C2;
 }
 .text1 {
    grid-area: text1;
    text-align: center;
    background-color: #97BF04;
+   color: #EDF2C2;
 }
 .text2 {
    grid-area: text2;
    text-align: center;
    background-color: #97BF04;
+   color: #EDF2C2;
 }
 html {
    background-color: #97BF04;
+}
+a {
+   color: #EDF2C2;
 }
