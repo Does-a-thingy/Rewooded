@@ -6,7 +6,7 @@
    grid-template-rows: 2fr 1fr 1fr 1fr;
    grid-template-areas:
       'head head'
-      'subh smtext'
+      'subh mtext'
       'table table'
       'foot foot'
       ;
@@ -34,4 +34,10 @@ html {
 .table {
    grid-area: table;
    background-color: #EDf2C2;
+   align-self: center;
+   
+}
+.subh {
+   color: #00B300;
+   background-color: #97BF04;
 }
