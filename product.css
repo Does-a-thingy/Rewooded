@@ -1,6 +1,9 @@
 .site {
+   align-content: center;
+   text-align: center;
+   align-self: center;
    background-color: #E7f294;
-   color: #E7F294;
+   color: #EDF2C2;
    display: grid;
    grid-template-columns: 2fr 2fr;
    grid-template-rows: 2fr 1fr 1fr 1fr;
@@ -40,4 +43,7 @@ html {
 .subh {
    color: #00B300;
    background-color: #97BF04;
+}
+a {
+   color: #EDF2C2;
 }
