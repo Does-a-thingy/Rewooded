@@ -14,12 +14,12 @@
       'foot foot'
       ;
 }
-.heading {
+.head {
    grid-area: head;
    text-align: center;
    background-color: #067302;
 }
-.feeting {
+.foot {
    align-self: center;
    grid-area: foot;
    text-align: center;
