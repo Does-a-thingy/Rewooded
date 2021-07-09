@@ -19,6 +19,7 @@
    grid-area: head;
    text-align: center;
    background-color: #067302;
+   color: #EDF2C2;
 }
 .foot {
    padding: 7px;
@@ -26,12 +27,14 @@
    grid-area: foot;
    text-align: center;
    background-color: #067302;
+   color: #EDF2C2;
 }
 .mtext {
    padding: 7px;
    grid-area: mtext;
    text-align: center;
    background-color: #97BF04;
+   color: #EDF2C2;
 }
 html {
    background-color: #E7f294;
@@ -41,13 +44,12 @@ html {
    grid-area: table;
    background-color: #EDf2C2;
    align-self: center;
-   
 }
 .subh {
    padding: 7px;
    grid-area: subh;
    text-align: center;
-   color: #00B300;
+   color: #EDF2C2;
    background-color: #97BF04;
 }
 a {
