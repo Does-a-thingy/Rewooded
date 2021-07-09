@@ -27,12 +27,14 @@
 .sub1 {
    grid-area: sub1;
    text-align: center;
+   align-content: center;
    background-color: #E7f294;
    color: #00B300;
 }
 .sub2 {
    grid-area: sub2;
    text-align: center;
+   align-content: center;
    background-color: #E7f294;
    color: #00B300;
 }
